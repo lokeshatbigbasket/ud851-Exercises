@@ -16,4 +16,8 @@
 <resources>
     <string name="app_name">Github Query</string>
     <string name="search">Search</string>
+    <!--COMPLETED (1) Add a string resource called search with the title "Search"-->
+    <string name="hint_et">Type a query for Github</string>
+    <string name="hint_tv">Enter a search query and your URL will show up here!</string>
+    <string name="text_tv">Make a search and your result will show up here!</string>
 </resources>
