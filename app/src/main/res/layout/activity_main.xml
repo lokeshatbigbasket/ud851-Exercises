@@ -23,32 +23,30 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.android.datafrominternet.MainActivity">
-
     <EditText
         android:id="@+id/et_search_box"
+        android:hint="@string/hint_et"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter a query, then click Search"
-        android:textSize="22sp" />
-
+        android:textSize="22sp"/>
     <TextView
         android:id="@+id/tv_url_display"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="22sp"
         android:layout_marginTop="8dp"
-        android:text="Click search and your URL will show up here!"
-        android:textSize="22sp" />
+        android:hint="@string/hint_tv"/>
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp">
-
-        <TextView
-            android:id="@+id/tv_github_search_results_json"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Make a search!"
-            android:textSize="18sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_github_search_results_json"
+                android:textSize="18sp"
+                android:text="@string/text_tv"/>
     </ScrollView>
+
 </LinearLayout>
